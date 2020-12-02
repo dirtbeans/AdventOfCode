@@ -203,6 +203,6 @@ numberList = [ 1945,
 ]
 
 target = 2020
-for numbers in itertools.combinations(numberList,2):
+for numbers in itertools.combinations(numberList,3):
     if sum(numbers) == target:
-        print(numbers[0]*numbers[1])
+        print(numbers[0]*numbers[1]*numbers[2])
